@@ -1,0 +1,159 @@
+/* Global Styles */
+body {
+    background-color: #1E1E1E;
+    color: #F5F5F5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+a {
+    color: #F5F5F5;
+    text-decoration: none;
+}
+
+/* Navigation */
+nav {
+    background-color: #292929;
+    color: #F5F5F5;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    
+}
+
+nav ul li {
+    margin-right: 30px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav a {
+    color: #F5F5F5;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Sections */
+section {
+    padding: 50px;
+    padding-top: 20px;
+    padding-top: 20px;
+}
+
+/* Introductory Section */
+section:first-of-type {
+    background-color: #1E1E1E;
+    text-align: center;
+}
+
+section:first-of-type h1 {
+    font-size: 3rem;
+    margin: 0;
+    color: #F5F5F5;
+    text-align: center;
+}
+
+section:first-of-type p {
+    font-size: 1.2rem;
+    margin: 2rem 0 0;
+    color: #F5F5F5;
+}
+
+/* Default Information */
+section:nth-of-type(2) {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+section:nth-of-type(2) h2 {
+    font-size: 2rem;
+    margin: 0 0 2rem;
+    text-align: center;
+    color: #F5F5F5;
+}
+
+section:nth-of-type(2) ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+section:nth-of-type(2) li {
+    margin-right: 1rem;
+    font-size: 1.2rem;
+    color: #F5F5F5;
+}
+
+section:nth-of-type(2) li:last-child {
+    margin-right: 0;
+}
+
+section:nth-of-type(2) p {
+    text-align: center; /* Add this line to center the text */
+}
+
+/* Boxed Off Sections */
+.box {
+    background-color: #292929;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    padding: 50px;
+    margin-bottom: 4rem;
+}
+
+.box h3 {
+    font-size: 1.8rem;
+    margin: 0 0 1rem;
+    color: #F5F5F5;
+}
+
+.box p {
+    font-size: 1.2rem;
+    margin: 0;
+    color: #F5F5F5;
+}
+
+/* Dropdown Styles */
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #292929;
+  padding: 0;
+  margin-top: 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.dropdown-menu li {
+  display: block;
+  width: 100%; /* Add this line to make the boxes fill uniformly */
+}
+
+.dropdown-menu li a {
+  display: block;
+  padding: 10px;
+  color: #F5F5F5;
+  text-decoration: none;
+}
+
+
+.dropdown-menu li a:hover {
+  background-color: #1E1E1E;
+}
